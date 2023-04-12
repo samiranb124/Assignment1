@@ -1,0 +1,84 @@
+body{
+    padding: 0px;
+    margin: 0pc;
+    background: rgb(0, 0, 53);
+}
+
+.backG{
+   
+    width: 100%;
+    height: 80vh;
+    background: rgb(195, 204, 230);
+    margin-top: 40px;
+
+
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+
+.form1{
+
+    margin-top: 40px;
+    width: 33%;
+    height: 330px;
+    background: white;
+    padding: 0px;
+    border: 8px;
+}
+
+.inner1{
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    
+}
+.ID1{
+    width: 350px;
+    height: 40px;
+}
+#userId,#userPass{
+    border: none;
+}
+#userId[type=text]:enabled{
+    background: rgb(190, 190, 190);
+    
+}
+#userPass[type=password]:enabled{
+    background: rgb(190, 190, 190);
+}
+#userPass{
+    margin-top: 20px;
+
+}
+
+.last231{
+    background: blue;
+    margin-right: 10px;
+    color: #ffff;
+}
+.last232{
+    
+    background: rgb(107, 107, 107);
+}
+
+.last231, .last232{
+    width: 100px;
+    height: 40px;
+    border-radius: 3px;
+    border: none;
+    
+}
+
+.inner2{
+   margin-left: 120px;
+   
+   margin-top: 90px;
+    
+
+    width: 100%;
+
+    
+}

@@ -1,0 +1,787 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 1300px;
+    background-color: rgb(238, 229, 220);
+}
+
+/*WORKING ON HEADER PORTION*/
+
+header{
+    height: 70px;
+    width: 100vw;
+    background-color:white;
+    border-bottom: 1px solid rgb(161, 161, 152);
+    position: fixed;
+    z-index: 10;
+}
+
+#logo{
+    width: 110px;
+    padding: 0;
+    
+}
+.heading{
+    display: flex;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+
+}
+.child_head1{
+    width: 40%;
+    height: 100%;
+}
+.child_head2{
+    width: 60%;
+    height: 100%;
+}
+#child_head21{
+    display: flex;
+
+    justify-content: end;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+main{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.main1{
+    display: flex;
+}
+
+.main_block1{
+    height: 930px;
+    width:20%;
+    
+    
+}
+
+
+
+#date[type=date]:enabled{
+    background: rgb(173, 201, 214);
+    
+}
+#date[type=text]:enabled{
+    background: rgb(173, 201, 214);
+    
+}
+.pp1[type=text]:enabled{
+    background: rgb(173, 201, 214);
+    
+}
+
+/*WORKING ON RIGHT PORTION*/
+.main_block2{
+    height: 1325px;
+    width: 85%;
+    
+    position: relative;
+    top: 70px;
+}
+
+
+#rightP1 h3{
+    padding: 0px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+#rightP2{
+    display: flex;
+    width: 85%;
+    height: 60px;
+    background-color: white;
+    border-radius: 7px;
+
+}
+
+.f1box1{
+    width: 0.7%;
+    background-color:blue;
+    height: 60px;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+    
+}
+.f1box2{
+    width: 95%;
+    
+    height: 60px;
+}
+.para1{
+    padding: 0px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 15px;
+}
+.para2{
+    padding: 0px;
+    margin-top: 4px;
+    margin-bottom: 0px;
+    margin-left: 15px;
+    font-size: 13px;
+    color: rgb(109, 108, 108);
+}
+
+.f1box3{
+    margin-top: 20px;
+    color: blue;
+}
+
+#rightP3{
+    margin-top: 10px;
+    display: flex;
+    width: 85%;
+    height: 60px;
+    background-color: white;
+    border-radius: 7px;
+
+}
+
+
+#rightP4{
+    display: flex;
+    flex-direction: column;
+
+    width: 85%;
+    height: 400px;
+    margin-top: 2px;
+    background-color: white;
+    border-radius: 7px;
+
+}
+
+.para3{
+    padding: 0px;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    margin-left: 25px;
+}
+
+
+
+
+
+
+
+
+/* PAN CARD BUTTON */
+
+#box2_{
+    width: 100%;
+    height: 75px;
+    margin-top: 8px;
+    display: flex;
+}
+
+#box21_{
+    display: flex;
+    background-color: #030c27;
+    width: 170px;
+    height: 70px;
+    border-radius: 6px;
+    margin-left: 25px;  
+    margin-top: 5px;
+    /* MARGIN FROM LEFT SIDE */
+    
+    }
+    #box21_:hover{
+    cursor: pointer;
+    }
+    
+.but21{
+    position: relative;
+    display: inline-block;
+    padding: 3px 4px 2px 4px;
+    border: 2px solid rgb(255, 255, 255);
+    
+   
+    
+    
+}
+
+.but21::before{
+    content: '';
+    position: absolute;
+    top: 6px;
+    left: -2px;
+    width: calc(100% + 4px);
+    height: calc(100% - 12px);
+    background: #030c27;
+    transform: 0.5s ease-in-out;
+    transform: scaleY(1);
+    
+}
+.but21::after{
+    content: '';
+    position: absolute;
+    left: 6px;
+    top: -2px;
+    height: calc(100% + 4px);
+    width: calc(100% - 12px);
+    background: #030c27;
+    transform: 0.5s ease-in-out;
+    transform: scaleY(1);
+
+}
+
+ 
+.but21 span{
+    position: relative;
+    z-index: 1;
+
+}
+
+.aa1{
+width: 40%;
+height: 50px;
+
+}
+.aa2{
+width: 60%;
+height: 50px;
+
+}
+.pan1{
+
+display: flex;
+    justify-content:end;
+    align-items:center;
+    margin-top: 10px;
+    padding: 0px;
+    
+    
+    
+   
+}
+.pan2{
+
+
+    margin-top: 8px;
+    
+    padding: 0px;
+    
+    
+   
+}
+.pa1{
+margin: 0px;
+padding: 0px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    
+}
+
+
+/* side box of the pan scanner */
+
+.box21_2{
+    width: 320px;
+    height: 50px;
+    background: rgba(165, 194, 191, 0.822);
+    border-radius: 5px;
+    border: 1px solid #030c27;
+    margin-left: 30px;
+    display: flex;
+}
+
+#info1{
+   margin-top: 18px;
+   margin-left: 8px;
+}
+
+#info2{
+    padding: 0px;
+   margin-top: 10px;
+   margin-left: 10px;
+   font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+#box4_{
+    display: flex;
+    height: 100%;
+   
+    padding-left: 25px;
+    
+}
+
+#Sdetail1{
+    width: 60%;
+    height: 100%;
+    
+}
+.Snum1{
+    display: flex;
+    height: 50%;
+    
+    justify-content: space-around;
+    
+    
+}
+.Snum1 div{
+    margin-top: 20px;
+}
+.Snum1 .sec{
+    margin-top: 0px;
+}
+.Snum1 div input{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+
+}
+
+
+.box21_3{
+    width: 300px;
+    height: 50px;
+    background: rgba(165, 194, 191, 0.822);
+    border-radius: 5px;
+    border: 1px solid #030c27;
+    margin-left: 10px;
+    margin-top: 23px;
+    display: flex;
+}
+
+
+
+/* Camera icon */
+
+
+.sdetail32{
+    display: flex;
+    height: 100%;
+    padding-top: 40px;
+    
+}
+
+
+.camera1{
+    position: relative;
+    display: inline-block;
+    padding: 1px 3px 1px 3px;
+    border: 2px solid rgb(0, 117, 185);
+    
+    
+}
+
+.camera1::before{
+    content: '';
+    position: absolute;
+    top: 6px;
+    left: -2px;
+    width: calc(100% + 4px);
+    height: calc(100% - 12px);
+    background: #ffffff;
+    transform: 0.5s ease-in-out;
+    transform: scaleY(1);
+    
+}
+.camera1::after{
+    content: '';
+    position: absolute;
+    left: 6px;
+    top: -2px;
+    height: calc(100% + 4px);
+    width: calc(100% - 12px);
+    background: #ffffff;
+    transform: 0.5s ease-in-out;
+    transform: scaleY(1);
+
+}
+
+ 
+.camera1 span{
+    position: relative;
+    z-index: 3;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#rightP5{
+    display: flex;
+    flex-direction: column;
+
+    width: 85%;
+    height: 180px;
+    margin-top: 2px;
+    background-color: white;
+    border-radius: 7px;
+
+}
+
+
+.Snum2{
+    display: flex;
+    
+    padding-left: 20px;
+    justify-content: space-around;
+    
+    
+}
+.Snum2 .sec2{
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.Snum2 .sec{
+    margin-top: 0px;
+}
+.Snum2 div input{
+    padding: 0px;
+    margin: 0px;
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+
+}
+
+.sec2{
+    margin-left: 15px;
+    
+}
+
+
+#maried1{
+    width: 240px;
+    height: 35px;
+    border-radius: 5px;
+
+}
+
+.Snum2 .mar1{
+    margin-top: 17px;
+    margin-left: 0px;
+    padding: 0px;
+}
+.Snum3{
+    display: flex;
+    
+    padding-left: 30px;
+    margin-top: 25px;
+    align-items: center;
+    
+    
+}
+/* GENDER SELECTION */
+
+.gender{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    width: 120px;
+    height: 40px;
+    justify-content: space-between;
+    
+}
+.gen1_{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    color: blue;
+    border: 1px solid black;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 0px;
+
+}
+.gen1_ i{
+    margin-top: 8px;
+}
+.gen1_:hover{
+    cursor: pointer;
+}
+.mar1{
+    margin-left: 8px;
+}
+
+.sec3{
+    margin-left: 23px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#rightP6{
+    display: flex;
+    flex-direction: column;
+    
+
+    width: 85%;
+    height: 345px;
+    margin-top: 2px;
+    background-color: white;
+    border-radius: 7px;
+
+}
+
+.kycD{
+    margin-left: 44px;
+   
+    
+    
+}
+#date1{
+    width: 530px;
+    height: 30px;
+    border-radius: 5px;
+}
+#date2{
+    width: 530px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 17px;
+}
+
+
+.last1{
+    display: flex;
+    width: 537px;
+    margin-top: 10px;
+
+}
+
+.sec5{
+    width: 50%;
+}
+
+
+#pan_number1{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+
+}
+
+
+#maried12{
+    width: 260px;
+    height: 35px;
+    border-radius: 5px;
+    float: right;
+
+}
+
+
+.endP{
+    display: flex;
+    width: 537px;
+    
+    margin-top: 30px;
+}
+
+.end1{
+    width: 90%;
+    
+}
+.end2{
+    display: flex;
+    
+}
+
+
+
+
+#rightP7{
+    display: flex;
+
+    width: 85%;
+    height: 120px;
+    margin-top: 2px;
+   
+    border-radius: 7px;
+
+}
+#endW1{
+    width: 70%;
+}
+#endW2{
+    width: 30%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.save1{
+    width: 100px;
+    height: 50px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    
+}
+.save21{
+    margin-right: 20px;
+    color: #032794;
+}
+.save22{
+    background: #032794;
+    color: white;
+}
+
+.endPP{
+    margin-top: 30px;
+}
+
+
+
+
+
+
+#rightP8{
+    margin-top: 10px;
+    display: flex;
+    width: 85%;
+    height: 80px;
+    background-color: white;
+    border-radius: 4px;
+    align-items: center;
+
+}
+
+.f1box2 {
+    width: 92%;
+}
+
+/*WORKING ON LEFT PORTION NAVIGATION BAR*/
+
+ul{
+    list-style: none;
+}
+
+
+
+.navmenu #list1{
+    margin-top: 90px;
+    padding-left: 50px;
+    position: fixed;
+}
+
+.navmenu{
+    margin-top: 20px;
+
+}
+.navmenu #list1::after{
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: calc(100% - 60px);
+    left: 40px;
+    top: 0;
+    background: #030303;
+    z-index: -1;
+    margin-top: 20px;
+}
+
+.navmenu #list1 #list2{
+    
+    padding-left: 20px;
+
+}
+.l1{
+    padding: 5px 0;
+}
+.l2{
+    padding: 15px 0 20px 0;
+}
+.l3{
+    padding:0 0 5px 0;
+}
+.l4{
+    padding:15px 0 5px 0;
+}
+.l5{
+    padding:15px 0 4px 0;
+}
+.l6{
+    padding:15px 0 2px 0;
+}
+#dj{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    position: relative;
+    color: #000000;
+    font-size: 1rem;
+    line-height: 0.1rem;  /**/
+    font-weight: 500;
+
+}
+
+.b1{
+    padding: 0px;
+    margin: 0px;
+    line-height: 28px;
+    position: relative;
+    left: 20px;
+}
+
+
+.navmenu #list1 #list2 a::before{
+    content: "";
+    position: absolute;
+    background: rgb(255, 255, 255);
+    width: 18px;
+    height: 18px;
+    left: -39px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50px;
+    border: 1px solid #000000;
+}
+
+.navmenu #list1 #list2 a.active::before{
+    background:#000000;
+}
+
+
+
+
+

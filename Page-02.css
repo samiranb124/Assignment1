@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.back{
+    height: 100vh;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(7, 7, 29, 0.938);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.front{
+    height: 530px;
+    width: 1100px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+#chil1{
+    height: 530px;
+    width: 55%;
+    
+
+}
+#chil2{
+    height: 530px;
+    width: 45%;
+   
+    
+
+}
+
+.heading{
+    text-align: center;
+    margin-top: 100px;
+}
+
+#form1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.India{
+    
+    margin-top: 40px;
+    width: 350px;
+    border-bottom: 1px solid rgb(0, 0, 0); 
+    
+}
+
+
+select{
+    border: none;
+    margin-top: 10px;
+    
+    padding: 6px 35px 4px 4px;
+
+    border: 0.5px solid rgb(212, 209, 209);
+    
+    
+
+}
+
+
+
+input{
+    border: none;  
+ 
+}
+
+
+
+button{
+    margin-top: 25px;
+    width: 350px;
+    height: 45px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(4, 161, 223, 0.952);
+    color: white;
+}
